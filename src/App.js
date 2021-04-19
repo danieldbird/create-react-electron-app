@@ -1,18 +1,28 @@
 import React from "react";
+// import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./App.css";
+// import Welcome from "./Welcome";
+// import Home from "./Home";
+
+// const Store = window.require("electron-store");
+// const store = new Store();
 
 function App() {
   return (
     <div>
-      <h1>create-react-electron-app</h1>
-
-      <h3>A starting template for creating a react and electron app</h3>
-      <a href="https://github.com/danieldbird/create-react-electron-app">
-        https://github.com/danieldbird/create-react-electron-app
-      </a>
-      <p>
-        Everything setup for development and building, including hot reloading
-        of not only the browser content but the window.
-      </p>
+      <h1>Home</h1>
+      {/* <Router>
+        <Switch>
+          <Route exact path="/">
+            <Link to="/preferences">Preferences</Link>
+            <Home />
+          </Route>
+          <Route exact path="/preferences">
+            <Link to="/">X</Link>
+            <Preferences />
+          </Route>
+        </Switch>
+      </Router> */}
     </div>
   );
 }
